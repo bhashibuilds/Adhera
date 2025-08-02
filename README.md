@@ -7,38 +7,22 @@ A mobile-first platform to help weight loss patients stay on track through struc
 - AI-based calorie estimation for meal tracking
 - Weekly summary generation for doctor review
 
- Features
- React Native · Node.js · Express · Firebase · MongoDB · Python (for AI)
+Revised Core Features for V1:
 
- Core MVP Features
- Appointment System
- View available clinic slots (from a shared availability calendar)
+Photo-based food logging with AI calorie/macro estimation
+Manual entry and corrections for accuracy
+Patient dashboard with nutrition trends and insights
+Shareable reports patients can export for doctor visits
+Basic reminders for logging meals and health goals
+Simple goal setting (calorie targets, macro ratios, etc.)
 
- Book appointments only after a minimum wait period (e.g., 3 weeks)
+Future V2 Add-ons:
 
- Rescheduling allowed only up to X days before appointment
+Doctor dashboard access
+Appointment scheduling integration
+Real-time doctor-patient communication
+Integration with wearables/step counters
 
- Cancel appointment (clinic receives real-time notification)
-
- Clinic dashboard to see cancellations, changes, and requests
-
- Messaging System
- Automated reminders:
-
- Doctor-recommended appointment follow-ups
-
- Diet/water intake reminders
-
- Physical activity reminders
-
- Motivational messages (from a preset bank or generated)
-
- Real-time alerts to the clinic if patients cancel/reschedule
-
- AI & Tracking
- AI-powered food calorie estimator (upload photo or describe food)
-
- Logs food, water, activity per day
-
- Weekly summary auto-generated for the doctor (viewed in clinic portal)
+This approach lets you nail the food tracking experience first, which is honestly the hardest part technically. Once that's solid and users love it, adding scheduling becomes a natural expansion rather than trying to solve everything at once.
+Does this focused approach feel right to you? What's drawing you most to the food tracking aspect - is it the AI photo recognition challenge or the health outcomes potential?
 
